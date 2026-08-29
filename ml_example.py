@@ -33,7 +33,7 @@ print ('Accuracy: ', accuracy*100)
 #Calculate F1 score
 f1 = f1_score(y_test, y_pred, average='macro')
 
-#Print the F1 score
+#Print the F1 score here
 print ('F1 score: ', f1)
 
 # Calculate confusion matrix
